@@ -137,7 +137,7 @@ class Search extends React.Component {
                     {/* This "form" is for the user to enter the movie title to search for. */}
                     <form className="" onSubmit={this.handleSubmit}>
                         <label>
-                            <input className="ms-2" type="text" value={this.state.value} onChange={this.handleChange} />
+                            <input className="ms-2" type="text" placeholder="title or keyword" value={this.state.value} onChange={this.handleChange} />
                         </label>
                         <input className="ms-3 fancybutton" type="submit" value="Search"/>
                     </form>   
