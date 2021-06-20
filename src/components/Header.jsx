@@ -11,7 +11,7 @@ class Header extends React.Component {
                 <h1 className="header">FLiX FiX</h1>
                 <p className="bodytext">
                     Everyone enjoys a good movie! There are a tremendous amount of movies and it can 
-                    be difficult to find detailed information about each one. FLiX FiX is <em>the</em> 
+                    be difficult to find detailed information about each one. FLiX FiX is <em>the</em>  
                     tool to help you get your movie fix.
                 </p>
                 <p className="bodytext">
