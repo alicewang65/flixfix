@@ -7,7 +7,7 @@
  * @returns movies on the given page with the given search term
  */
 const searchMovies = async(input, page) => {
-    let response = await fetch(`http://www.omdbapi.com/?apikey=c13968c7&type=movie&s=${encodeURIComponent(input)}&page=${encodeURIComponent(page)}`);
+    let response = await fetch(`https://www.omdbapi.com/?apikey=c13968c7&type=movie&s=${encodeURIComponent(input)}&page=${encodeURIComponent(page)}`);
     response = await response.json();
     return(response);
 }
@@ -20,7 +20,7 @@ const searchMovies = async(input, page) => {
  * @returns detailed information of the desired movie
  */
 const fetchMovie = async(imdbID) => {
-    let response = await fetch(`http://www.omdbapi.com/?apikey=c13968c7&i=${encodeURIComponent(imdbID)}`);
+    let response = await fetch(`https://www.omdbapi.com/?apikey=c13968c7&i=${encodeURIComponent(imdbID)}`);
     response = await response.json();
     return response;
 }
