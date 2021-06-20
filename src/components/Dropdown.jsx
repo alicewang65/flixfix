@@ -7,7 +7,7 @@ import React from 'react'
 class Dropdown extends React.Component {
     render() {
         return (
-            <div className="dropdown d-flex flex-row-reverse w-100 pe-5">
+            <div className="dropdown d-flex flex-row-reverse w-100 pe-5 pt-3">
                 <button className="btn btn-secondary dropdown-toggle fancybutton" type="button" id="dropdownMenu" data-bs-toggle="dropdown" aria-expanded="false">
                     Page Size
                 </button>
