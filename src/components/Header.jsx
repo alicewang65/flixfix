@@ -10,15 +10,15 @@ class Header extends React.Component {
             <div className = "d-flex flex-column align-items-center justify-content-center p-5">
                 <h1 className="header">FLiX FiX</h1>
                 <p className="bodytext">
-                    In this digital age, movies have a tremendous impact on both individuals and the broader society.
-                    However, given all of the movies that are produced, it can be incredibly difficult to find movie details
-                    such as release date, director, rating and more. That's where we come in.
+                    Everyone enjoys a good movie! There are a tremendous amount of movies and it can 
+                    be difficult to find detailed information about each one. FLiX FiX is <em>the</em> 
+                    tool to help you get your movie fix.
                 </p>
                 <p className="bodytext">
-                    FLiX FiX is <em>the</em> tool to help you get your movie fix.
-                    Enter any movie title into the search bar below and press "Search". 
-                    Below the search bar will display a table of all the movies with the inputted title and additional details
-                    including, but not limited to, release date, runtime, genre and director. Have fun!
+                    <span className="highlighttext"> Enter any movie title or keyword in the title into 
+                    the search bar below and press "Search". </span> Displayed beneath will be a table of 
+                    all the movies with the inputted search term in the title. Clicking on each movie entry 
+                    will produce additional details including genre, rating and more. Have fun!
                 </p>
                 <p className="bodytext highlighttext">
                     Please note: Sometimes it might take a second for the results to load!
