@@ -1,0 +1,100 @@
+/* Import the fonts used in the website */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fira+Sans+Condensed:ital,wght@1,300&family=Nunito:wght@300&family=Original+Surfer&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Custom background color that overrides the Bootstrap styles */
+  /* !important allows the overriding */
+  background-color: #f9f7f3 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Personal style choices below */
+
+/* Styles the cursor to be a pointer when hovering over
+   the navigation buttons (PageNav component) */
+.page-num {
+  cursor: pointer;
+}
+
+/* Styles the website title 'FLiX FiX' within
+   the Header component of the website */
+.header {
+  font-family: 'Original Surfer', cursive;
+  color: #0fa3b1;
+}
+
+/* Styles the introductory text of the
+   Header component of the website */
+.bodytext {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Styles any text that is important
+   and must stand apart */
+.highlighttext {
+  color: #F7A072;
+  font-weight: bold;
+}
+
+/* Styles the large buttons of the website
+   which consist of the Search button and the
+   Dropdown button. Overrides Bootstrap styles */
+.fancybutton {
+  background-color: white !important;
+  border: 1px solid #0fa3b1 !important;
+  border-radius: 5px !important;
+  color: black !important;
+}
+
+/* Styles the active (current page) pagination 
+   buttons (PageNav component) which overrides 
+   the Bootstrap defaults */
+.modactive {
+  background-color: #0fa3b1 !important;
+  border-color: #0fa3b1 !important;
+}
+
+/* Styles the remaining pagination buttons
+   (PageNav) which overrides Bootstrap defaults */
+.modnumber {
+  color: #0fa3b1 !important;
+}
+
+/* Styles the header of each movie's accordion */
+.titleheader {
+  font-family: 'Comfortaa', cursive;
+}
+
+/* Styles the text within the Footer component */
+.footertext {
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+/* Styles the LinkedIn logo within the Footer
+   component */
+.linkedlogo {
+  width: 25px;
+}
